@@ -19,23 +19,21 @@
   <meta name="author" content="FuzhuMC">
   <meta name="keywords" content="">
   
-    <meta name="description" content="对于直线 $l: Ax + By + C &#x3D; 0$ 与椭圆 $\Gamma: \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} &#x3D; 1$, 欲判定二者是否相切,常规的办法是联立消去 $x$ (或 $y$), 得到一个关于 $y$ (或 $x$) 的一元二次方程,然后判定其判别式是否为零.但这样计算复杂.事实上,我们有如下定理  定理 直线 $l: Ax +">
+    <meta name="description" content="已知三角形三边长求其面积，一般会使用海伦公式，可如果边长中带有根号，海伦公式的形式就复杂了，接下来介绍海伦公式的一个推论.  Theorem 设三角形 $ABC$ 三边长为 $a, b, c$, 设 $x, y, z$ 满足 $$ \begin{cases}     x + y &#x3D; a^2 \     y + z &#x3D; b^2 \     z + x &#x3D; c^2 \en">
 <meta property="og:type" content="article">
-<meta property="og:title" content="直线与椭圆相切的充要条件">
-<meta property="og:url" content="https://fuzhumc.github.io/maths/2026/%E7%9B%B4%E7%BA%BF%E4%B8%8E%E6%A4%AD%E5%9C%86%E7%9B%B8%E5%88%87%E7%9A%84%E5%85%85%E8%A6%81%E6%9D%A1%E4%BB%B6/index.html">
+<meta property="og:title" content="海伦公式的推论">
+<meta property="og:url" content="https://fuzhumc.github.io/uncategorized/2026/%E6%B5%B7%E4%BC%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E6%8E%A8%E8%AE%BA/index.html">
 <meta property="og:site_name" content="FuzhuMC&#39;s Blog">
-<meta property="og:description" content="对于直线 $l: Ax + By + C &#x3D; 0$ 与椭圆 $\Gamma: \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} &#x3D; 1$, 欲判定二者是否相切,常规的办法是联立消去 $x$ (或 $y$), 得到一个关于 $y$ (或 $x$) 的一元二次方程,然后判定其判别式是否为零.但这样计算复杂.事实上,我们有如下定理  定理 直线 $l: Ax +">
+<meta property="og:description" content="已知三角形三边长求其面积，一般会使用海伦公式，可如果边长中带有根号，海伦公式的形式就复杂了，接下来介绍海伦公式的一个推论.  Theorem 设三角形 $ABC$ 三边长为 $a, b, c$, 设 $x, y, z$ 满足 $$ \begin{cases}     x + y &#x3D; a^2 \     y + z &#x3D; b^2 \     z + x &#x3D; c^2 \en">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2026-02-24T14:46:54.000Z">
-<meta property="article:modified_time" content="2026-03-04T02:03:56.553Z">
+<meta property="article:published_time" content="2026-03-02T11:06:29.000Z">
+<meta property="article:modified_time" content="2026-03-04T09:10:11.022Z">
 <meta property="article:author" content="FuzhuMC">
-<meta property="article:tag" content="maths">
-<meta property="article:tag" content="study">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>直线与椭圆相切的充要条件 - FuzhuMC&#39;s Blog</title>
+  <title>海伦公式的推论 - FuzhuMC&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -214,7 +212,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="直线与椭圆相切的充要条件"></span>
+            <span id="subtitle" data-typed-text="海伦公式的推论"></span>
           
         </div>
 
@@ -225,8 +223,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2026-02-24 22:46" pubdate>
-          2026年2月24日 晚上
+        <time datetime="2026-03-02 19:06" pubdate>
+          2026年3月2日 晚上
         </time>
       </span>
     
@@ -269,64 +267,64 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">直线与椭圆相切的充要条件</h1>
+            <h1 id="seo-header">海伦公式的推论</h1>
             
             
               <div class="markdown-body">
                 
-                <p>对于直线 $l: Ax + By + C &#x3D; 0$ 与椭圆 $\Gamma: \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} &#x3D; 1$, 欲判定二者是否相切,常规的办法是联立消去 $x$ (或 $y$), 得到一个关于 $y$ (或 $x$) 的一元二次方程,然后判定其判别式是否为零.但这样计算复杂.事实上,我们有如下定理</p>
+                <p>已知三角形三边长求其面积，一般会使用海伦公式，可如果边长中带有根号，海伦公式的形式就复杂了，接下来介绍海伦公式的一个推论.</p>
 <blockquote>
-<p><strong>定理</strong>
-直线 $l: Ax + By + C &#x3D; 0$ 与椭圆 $\Gamma: \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} &#x3D; 1$ 相切的充分必要条件是
-$$ A^2a^2 + B^2b^2 &#x3D; C^2 $$</p>
+<p><strong>Theorem</strong></p>
+<p>设三角形 $ABC$ 三边长为 $a, b, c$, 设 $x, y, z$ 满足
+$$
+\begin{cases}
+    x + y &#x3D; a^2 \
+    y + z &#x3D; b^2 \
+    z + x &#x3D; c^2
+\end{cases}
+$$</p>
+<p>则 $Area &#x3D; \frac{1}{2} \sqrt{xy + yz + zx}$.</p>
 </blockquote>
-<p>接下来我们给出三种证法.</p>
-<h3 id="法一"><a href="#法一" class="headerlink" title="法一"></a>法一</h3><ol>
-<li>若 $l$ 与 $\Gamma$ 相切,设切点为 $P(x_0, y_0)$.
-$\Gamma$ 在 $P$ 处的切线方程为 $\dfrac{x_0x}{a^2} + \dfrac{y_0y}{b^2} &#x3D; 1$. 因此
-$$ \begin{cases} \dfrac{x_0}{a^2} &#x3D; -\dfrac{A}{C} \\ \dfrac{y_0}{b^2} &#x3D; -\dfrac{B}{C} \end{cases} $$
-解得
-$$ \begin{cases} x_0 &#x3D; -\dfrac{Aa^2}{C} \\ y_0 &#x3D; -\dfrac{Bb^2}{C} \end{cases} $$
-由 $P$ 在 $l$ 上知 $Ax_0 + By_0 + C &#x3D; 0$, 代入知 $A^2a^2 + B^2b^2 &#x3D; C^2$.</li>
-<li>若 $A^2a^2 + B^2b^2 &#x3D; C^2$, 取点 $P(x_0, y_0)$, 其中
-$$ \begin{cases} x_0 &#x3D; -\dfrac{Aa^2}{C} \\ y_0 &#x3D; -\dfrac{Bb^2}{C} \end{cases} $$
-由
-$$ \dfrac{x_0^2}{a^2} + \dfrac{y_0^2}{b^2} &#x3D; \dfrac{A^2a^4}{a^2C^2} + \dfrac{B^2b^4}{b^2C^2} &#x3D; \dfrac{A^2a^2 + B^2b^2}{C^2} &#x3D; 1 $$
-知点 $P$ 在 $\Gamma$ 上.进而 $P$ 处的切线方程为 $\dfrac{x_0x}{a^2} + \dfrac{y_0y}{b^2} &#x3D; 1$.
-即 $-\dfrac{A}{C} x - \dfrac{B}{C} y &#x3D; 1$, 亦即 $Ax + By + C &#x3D; 0$.
-因此 $l$ 与 $\Gamma$ 相切.</li>
-</ol>
-<p>综合 步骤 1 与 步骤 2, 定理得证.</p>
+<p><em>proof.</em> 由题意知
+$$
+\begin{cases}
+    x &#x3D; \frac{1}{2}(c^2 + a^2 - b^2) \
+    y &#x3D; \frac{1}{2}(a^2 + b^2 - c^2) \
+    z &#x3D; \frac{1}{2}(b^2 + c^2 - a^2)
+\end{cases}
+$$</p>
+<p>因此
+$$
+\begin{align*}
+    &amp; \frac{1}{2} \sqrt{xy + yz + zx} \
+    &amp; &#x3D; \frac{1}{4} \sqrt{(c^2 + a^2 - b^2)(a^2 + b^2 - c^2) + (a^2 + b^2 - c^2)(b^2 + c^2 - a^2) +
+        (b^2 + c^2 - a^2)(c^2 + a^2 - b^2)} \
+    &amp; &#x3D; \frac{1}{4} \sqrt{a^4 - (b - c)^2 + b^4 - (c - a)^2 + c^4 - (a - b)^2} \
+    &amp; &#x3D; \frac{1}{4} \sqrt{2a^2b^2 + 2b^2c^2 + 2c^2a^2 - a^4 - b^4 - c^4} \
+    &amp; &#x3D; \frac{1}{4} \sqrt{(a + b + c)(b + c - a)(c + a - b)(a + b - c)} \
+    &amp; &#x3D; \sqrt{p(p - a)(p - b)(p - c)} \
+    &amp; &#x3D; Area
+\end{align*}
+$$</p>
+<p>最后一步运用了海伦公式.</p>
 <blockquote>
-<p><strong>注</strong>
-证明过程中运用了椭圆上一点处的切线公式 $\dfrac{x_0x}{a^2} + \dfrac{y_0y}{b^2} &#x3D; 1$.</p>
+<p><strong>Remark</strong></p>
+<p>由余弦定理知
+$$
+\begin{cases}
+    x &#x3D; ac \cos B &#x3D; \vec{BA} \cdot \vec{BC} \
+    y &#x3D; ab \cos C &#x3D; \vec{CA} \cdot \vec{CB} \
+    z &#x3D; bc \cos A &#x3D; \vec{AB} \cdot \vec{AC}
+\end{cases}
+$$</p>
+<p>于是知
+$$
+Area &#x3D; \frac{1}{2} \sqrt{(\vec{BA} \cdot \vec{BC})(\vec{CA} \cdot \vec{CB})</p>
+<ul>
+<li>(\vec{CA} \cdot \vec{CB})(\vec{AB} \cdot \vec{AC}) + (\vec{AB} \cdot \vec{AC})(\vec{BA} \cdot \vec{BC})}
+$$</li>
+</ul>
 </blockquote>
-<h3 id="法二"><a href="#法二" class="headerlink" title="法二"></a>法二</h3><p>作仿射变换 $x’ &#x3D; \dfrac{x}{a}, y’ &#x3D; \dfrac{y}{b}$, 则 $\Gamma’: x’^2 + y’^2 &#x3D; 1$ 为单位圆,$l’: Aax’ + Bby’ + C &#x3D; 0$, 则原点到 $l’$ 的距离为</p>
-<p>$$ d &#x3D; \dfrac{|C|}{\sqrt{A^2a^2 + B^2b^2}} $$</p>
-<p>因此</p>
-<p>$$ \begin{aligned} l \text{与} \Gamma \text{相切} &amp; \iff l’ \text{与} \Gamma’ \text{相切} \\ &amp; \iff d &#x3D; 1 \\ &amp; \iff A^2a^2 + B^2b^2 &#x3D; C^2 \end{aligned} $$</p>
-<p>定理得证.</p>
-<h3 id="法三"><a href="#法三" class="headerlink" title="法三"></a>法三</h3><p>当 $l$ 过原点时,显然 $l$ 与 $\Gamma$ 相交,且 $A^2a^2 + B^2b^2 &#x3D; C^2$.
-当 $l$ 不过原点时,考虑齐次化 $1 &#x3D; -\dfrac{Ax + By}{C}$, 代入 $\Gamma$ 的方程得</p>
-<p>$$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} &#x3D; \dfrac{(Ax + By)^2}{C^2} $$</p>
-<p>同除 $x^2$ 化简得</p>
-<p>$$ (B^2a^2b^2 - a^2C^2) \left( \dfrac{y}{x} \right)^2 + (2ABa^2b^2) \left( \dfrac{y}{x} \right) + (A^2a^2b^2 - b^2C^2) &#x3D; 0 $$</p>
-<p>其判别式为</p>
-<p>$$ \begin{aligned} \Delta &amp; &#x3D; (2ABa^2b^2)^2 - 4(B^2a^2b^2 - a^2C^2)(A^2a^2b^2 - b^2C^2) \\ &amp; &#x3D; 4A^2B^2a^4b^4 - 4(B^2a^2b^2 - a^2C^2)(A^2a^2b^2 - b^2C^2) \\ &amp; &#x3D; 4a^2b^2C^2(A^2a^2 + B^2b^2 - C^2) \end{aligned} $$</p>
-<p>故 $l$ 与 $\Gamma$ 相切 $\iff \Delta &#x3D; 0 \iff A^2a^2 + B^2b^2 &#x3D; C^2$. 定理得证.</p>
-<p>对于中心不在原点处的椭圆,我们有如下推广的定理.</p>
-<blockquote>
-<p><strong>定理 2</strong>
-直线 $l: Ax + By + C &#x3D; 0$ 与椭圆 $\Gamma: \dfrac{(x - x_0)^2}{a^2} + \dfrac{(y - y_0)^2}{b^2} &#x3D; 1$ 相切的充分必要条件是
-$$ A^2a^2 + B^2b^2 &#x3D; (Ax_0 + By_0 + C)^2 $$</p>
-</blockquote>
-<p>对于双曲线,我们也有类似的定理.</p>
-<blockquote>
-<p><strong>定理 3</strong>
-直线 $l: Ax + By + C &#x3D; 0$ 与双曲线 $\Gamma: \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} &#x3D; 1$ 相切的充分必要条件是
-$$ A^2a^2 - B^2b^2 &#x3D; C^2 $$</p>
-</blockquote>
-<p>定理 2 与 定理 3 的证明留给读者思考.</p>
 
                 
               </div>
@@ -335,36 +333,6 @@ $$ A^2a^2 - B^2b^2 &#x3D; C^2 $$</p>
             <div>
               <div class="post-metas my-3">
   
-    <div class="post-meta mr-3 d-flex align-items-center">
-      <i class="iconfont icon-category"></i>
-      
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/maths/" class="category-chain-item">maths</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-    </div>
-  
-  
-    <div class="post-meta">
-      <i class="iconfont icon-tags"></i>
-      
-        <a href="/tags/maths/" class="print-no-link">#maths</a>
-      
-        <a href="/tags/study/" class="print-no-link">#study</a>
-      
-    </div>
   
 </div>
 
@@ -374,8 +342,8 @@ $$ A^2a^2 - B^2b^2 &#x3D; C^2 $$</p>
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>直线与椭圆相切的充要条件</div>
-      <div>https://fuzhumc.github.io/maths/2026/直线与椭圆相切的充要条件/</div>
+      <div>海伦公式的推论</div>
+      <div>https://fuzhumc.github.io/uncategorized/2026/海伦公式的推论/</div>
     </div>
     <div class="license-meta">
       
@@ -387,7 +355,7 @@ $$ A^2a^2 - B^2b^2 &#x3D; C^2 $$</p>
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2026年2月24日</div>
+          <div>2026年3月2日</div>
         </div>
       
       
@@ -431,9 +399,9 @@ $$ A^2a^2 - B^2b^2 &#x3D; C^2 $$</p>
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/french/2026/2026%E5%AF%92%E5%81%87%E6%B3%95%E8%AF%AD%E5%9B%9E%E9%A1%BE/" title="2026寒假法语回顾">
+                      <a href="/maths/2026/Root-of-Unity-Filter/" title="Root-of-Unity-Filter">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">2026寒假法语回顾</span>
+                        <span class="hidden-mobile">Root-of-Unity-Filter</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -441,8 +409,8 @@ $$ A^2a^2 - B^2b^2 &#x3D; C^2 $$</p>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/test/2026/test-math/" title="test-math">
-                        <span class="hidden-mobile">test-math</span>
+                      <a href="/maths/2026/%E5%85%B1%E7%82%B9%E7%9B%B4%E7%BA%BF%E7%B3%BB%E6%96%B9%E7%A8%8B%E7%9A%84%E5%87%A0%E4%BD%95%E6%84%8F%E4%B9%89/" title="共点直线系方程的几何意义">
+                        <span class="hidden-mobile">共点直线系方程的几何意义</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
